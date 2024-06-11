@@ -9,7 +9,14 @@ Python. Python is an interpreted, high-level and general-purpose programming lan
 ### Packages
 
 ```python
+
+import os
+import json
+import base64
 import pandas as pd
-import numpy as np
-from sklearn.neighbors import NearestNeighbors
+import streamlit as st
+import pandas as pd
+from base64 import b64encode
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
 ```
