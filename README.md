@@ -8,7 +8,7 @@ Python. Python is an interpreted, high-level and general-purpose programming lan
 
 ### Packages
 
-```
+```python
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
