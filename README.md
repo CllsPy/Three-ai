@@ -1,2 +1,2 @@
-# Three-ai
-Using AI to make the world better
+- [doc.](https://pypi.org/project/pycrypto/)
+- [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
