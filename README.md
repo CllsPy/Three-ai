@@ -17,3 +17,7 @@ import pandas as pd
 import streamlit as st
 import pandas as pd
 ```
+
+## Authors
+Carlos L. - Github
+Malba Vinicius - [Github](https://github.com/MalbaVinicius)
