@@ -19,5 +19,5 @@ import pandas as pd
 ```
 
 ## Authors
-Carlos L. - Github
-Malba Vinicius - [Github](https://github.com/MalbaVinicius)
+- Carlos L. - [Github](https://github.com/CllsPy)
+- Malba Vinicius - [Github](https://github.com/MalbaVinicius)
