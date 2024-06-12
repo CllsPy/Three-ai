@@ -39,10 +39,13 @@ class AesEncrypt(object):
 		cipher = AES.new(private_key, AES.MODE_CBC, iv)
 		encrypted_cols = self.mapping(file, target).astype("str")
 
-		for target in encrypted_cols:
-			encrypted_words = cipher.encrypt(pad(target.encode('utf-8'), AES.block_size))
+		for value in encrypted_cols.values:
+			encrypted_words = cipher.encrypt(pad(str(value).encode('utf-8'), AES.block_size))
 			self.AES_COL.append(b64encode(encrypted_words).decode('utf-8'))
+	
 
+		aes_target = self.AES_COL
+
+		file[f"AES-{target}"] = aes_target
+		return file
 		
-
-		return self.AES_COL
